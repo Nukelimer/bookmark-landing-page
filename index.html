@@ -1,130 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;700&display=swap"
+      rel="stylesheet" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>| Bookmark Landing Page |</title>
-  <link rel="stylesheet" href="../dist/output.css">
+    <!-- 'error-red': ' hsl(0, 94%, 66%)',
+'soft-blue': 'hsl(231, 69%, 60%)',
+'dark-blue-nav': ' hsl(229, 31%, 21%)',
+'gray-blue': 'hsl(229, 8%, 60%)',
+}, -->
 
-</head>
-<body>
-<h1 class="text-blue-900">
-  Features
-  Pricing
-  Contact
-  Login</h1>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
 
-  A Simple Bookmark Manager
+    <title>| Bookmark Landing Page |</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body class="bg-slate-100">
+    <div class="w-11/12 mx-auto">
+      <header class="flex justify-between pt-4">
+        <img src="./images/logo-bookmark.svg" alt="logo" />
+        <ul class="hidden">
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Contact</li>
+          <li>Login</li>
+        </ul>
+        <div>
+          <span class="bg-slate-500 h-1 w-6 rounded-lg mb-1 block"></span>
+          <span class="bg-slate-500 h-1 w-6 rounded-lg mb-1 block"></span>
+          <span class="bg-slate-500 h-1 w-6 rounded-lg mb-0 block"></span>
+        </div>
+      </header>
 
-  A clean and simple interface to organize your favourite websites. Open a new 
-  browser tab and see your sites load instantly. Try it for free.
+      <section class="mt-8 flex flex-col-reverse">
+        <div class="mb-12">
+          <div class="">
+            <h1
+              class="font-bold text-3xl text-center text-dark-blue-nav font-Mantrope mb-3">
+              A Simple Bookmark Manager
+            </h1>
+            <p class="font-Golo text-center text-gray-400">
+              A clean and simple interface to organize your favourite websites.
+              Open a new browser tab and see your sites load instantly. Try it
+              for free.
+            </p>
+          </div>
+          <div class="flex justify-center my-8">
+            <button
+              class="bg-soft-blue py-2 px-4 text-white font-semibold rounded-lg mr-4 capitalize">
+              Get it on Chrome
+            </button>
+            <button
+              class="py-2 px-4 text-dark-blue-nav font-semibold rounded-lg shadow-inner mr-4 capitalize">
+              Get it on Firefox
+            </button>
+          </div>
+        </div>
+        <div class="">
+          <img src="./images/illustration-hero.svg" alt="" />
+        </div>
+      </section>
+      <section>
+        <h1
+          class="text-center font-Mantrope font-bold text-2xl mb-6 text-dark-blue-nav">
+          Features
+        </h1>
+        <p class="font-Golo text-center text-gray-400 mb-6">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </section>
+      <section class="">
+        <div class="mb-16 font-bold text-gray-400">
+          <p class="border-y-2 py-4 border-gray-400 text-center">
+            Simple Bookmarking
+          </p>
+          <p class="py-4 border-gray-400 text-center" text-center>
+            Speedy Searching
+          </p>
+          <p class="border-y-2 py-4 border-gray-400 text-center">
+            Easy Sharing
+          </p>
+        </div>
+        <div class="">
+          <div class="">
+            <img
+              src="./images/illustration-features-tab-1.svg"
+              alt="illustration-features-tab-1" />
+          </div>
+          <div class="flex flex-col justify-center">
+            <h1
+              class="text-center font-Mantrope font-bold text-2xl mt-8 mb-4 text-dark-blue-nav">
+              Bookmark in one click
+            </h1>
+            <p class="text-gray-400 text-center">
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <button
+              class="bg-soft-blue py-2 px-4 text-white font-semibold rounded-lg capitalize my-6 mx-auto">
+              More Info
+            </button>
+          </div>
 
-  Get it on Chrome
-  Get it on Firefox
+          <!-- Just append these text instead -->
+          <div class="hidden">
+            <h1>Intelligent search</h1>
+            <p>
+              Our powerful search feature will help you find saved sites in no
+              time at all. No need to trawl through all of your bookmarks.
+            </p>
+            <button>More Info</button>
+          </div>
+          <div class="hidden">
+            <h1>Share your bookmarks</h1>
+            <p>
+              Share your bookmarks Easily share your bookmarks and collections
+              with others. Create a shareable link that you can send at the
+              click of a button.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mb-14">
+          <h1
+            class="text-center font-Mantrope font-bold text-2xl mt-8 mb-4 text-dark-blue-nav">
+            Download the extension
+          </h1>
+          <p class="text-gray-400 text-center font-Golo">
+            We’ve got more browsers in the pipeline. Please do let us know if
+            you’ve got a favourite you’d like us to prioritize.
+          </p>
+        </div>
+        <div class="flex flex-col mx-auto w-11/12 mb-20">
+          <div
+            class="w-full shadow-boxShadow flex flex-col justify-center items-center mb-8 rounded-xl">
+            <img
+              src="./images/logo-chrome.svg"
+              alt="Chrome"
+              class="mt-8 mb-6" />
+            <h1
+              class="text-center font-Mantrope font-bold text-xl mt-8 mb-4 text-dark-blue-nav">
+              Add to Chrome
+            </h1>
+            <p class="text-gray-400 text-center font-Golo">
+              Minimum version 62
+            </p>
+            <img
+              src="./images/bg-dots.svg"
+              alt="bg-dots"
+              class="mt-8 mb-4 self-stretch" />
+            <button
+              class="bg-soft-blue py-2 px-4 text-white font-semibold rounded-lg capitalize my-6 mx-auto font-Mantrope">
+              Add & Install Extension
+            </button>
+          </div>
+          <div
+            class="w-full shadow-boxShadow flex flex-col justify-center items-center mb-8 rounded-xl">
+            <img
+              src="./images/logo-firefox.svg"
+              alt="Firefox"
+              class="mt-8 mb-6" />
+            <h1
+              class="text-center font-Mantrope font-bold text-xl mt-4 mb-4 text-dark-blue-nav">
+              Add to Firefox
+            </h1>
+            <p class="text-gray-400 text-center font-Golo">
+              Minimum version 55
+            </p>
+            <img
+              src="./images/bg-dots.svg"
+              alt="bg-dots"
+              class="mt-4 mb-4 self-stretch" />
+            <button
+              class="bg-soft-blue py-2 px-4 text-white font-semibold rounded-lg capitalize my-4 mx-auto font-Mantrope">
+              Add & Install Extension
+            </button>
+          </div>
+          <div
+            class="w-full shadow-boxShadow flex flex-col justify-center items-center rounded-xl">
+            <img src="./images/logo-opera.svg" alt="Opera" class="mt-8 mb-6" />
+            <h1
+              class="text-center font-Mantrope font-bold text-xl mt-4 mb-4 text-dark-blue-nav">
+              Add to Opera
+            </h1>
+            <p class="text-gray-400 text-center font-Golo">
+              Minimum version 46
+            </p>
+            <img
+              src="./images/bg-dots.svg"
+              alt="bg-dots"
+              class="mt-4 mb-4 self-stretch" />
+            <button
+              class="bg-soft-blue py-2 px-4 text-white font-semibold rounded-lg capitalize my-4 mx-auto font-Mantrope">
+              Add & Install Extension
+            </button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mb-12">
+          <h1
+            class="text-center font-Mantrope font-bold text-3xl mt-8 mb-4 text-dark-blue-nav">
+            Frequently Asked Questions
+          </h1>
+          <p class="text-gray-400 font-Golo">
+            Here are some of our FAQs. If you have any other questions you’d
+            like answered please feel free to email us.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="flex flex-col">
+          <div class="border-y-2 py-4 border-gray-400">
+            <div class="flex justify-between items-center">
+              <p class="text-dark-blue-nav font-semibold font-Mantrope">
+                What is Bookmark?
+              </p>
+              <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+            </div>
+            <p class="py-4 text-gray-400 font-Golo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+              quis quam ornare mattis.
+            </p>
+          </div>
 
-  Features
+          <div class="border-b-2 py-6 border-gray-400">
+            <div class="flex justify-between items-center">
+              <p class="text-dark-blue-nav font-semibold font-Mantrope">
+                How can I request a new browser?
+              </p>
+              <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+            </div>
+            <p class="py-4 text-gray-400 font-Golo">
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus
+              eros aliquet convallis ultricies. Mauris augue massa, ultricies
+              non ligula. Suspendisse imperdie tVivamus luctus eros aliquet
+              convallis ultricies. Mauris augue massa, ultricies non ligula.
+              Suspendisse imperdiet.
+            </p>
+          </div>
 
-  Our aim is to make it quick and easy for you to access your favourite websites. 
-  Your bookmarks sync between your devices so you can access them on the go.
+          <div class="border-b-2 py-6 border-gray-400">
+            <div class="flex justify-between items-center">
+              <p class="text-dark-blue-nav font-semibold font-Mantrope">
+                Is there a mobile app?
+              </p>
+              <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+            </div>
+            <p class="py-4 text-gray-400 font-Golo">
+              Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+              vestibulum dolor, ut condimentum urna vulputate eget. Cras in
+              ligula quis est pharetra mattis sit amet pharetra purus. Sed
+              sollicitudin ex et ultricies bibendum.
+            </p>
+          </div>
 
-  Simple Bookmarking
-  Speedy Searching
-  Easy Sharing
+          <div class="border-b-2 py-6 border-gray-400">
+            <div class="flex justify-between items-center">
+              <p class="text-dark-blue-nav font-semibold font-Mantrope">
+                What about other Chromium browsers?
+              </p>
+              <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+            </div>
+            <p class="py-4 text-gray-400 font-Golo">
+              Integer condimentum ipsum id imperdiet finibus. Vivamus in
+              placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+              pellentesque non ut velit. Features Pricing Contact
+            </p>
+          </div>
+          <button
+            class="bg-soft-blue py-2 px-4 text-white font-semibold rounded-lg capitalize my-4 mx-auto mb-16 font-Golo">
+            More Info
+          </button>
+        </div>
+      </section>
 
-  Bookmark in one click
+      <section class="bg-soft-blue p-8">
+        <div class="">
+          <p class="font-Golo text-white mb-6 text-center">
+            35,000+ already joined
+          </p>
+          <p
+            class="font-semibold text-2xl font-Mantrope text-center text-white mb-8">
+            Stay up-to-date with what we’re doing
+          </p>
+        </div>
+        <div class="">
+          <div class="bg-error-red p-1 rounded-md text-white">
+            <input
+              type="email"
+              class="py-4 px-6 w-full rounded-md"
+              placeholder="example@email.com" />
+            <div class="">Lorem ipsum dolor sit amet consectetur .</div>
+          </div>
+          <button
+            class="bg-error-red py-2 px-4 text-white font-semibold rounded-lg capitalize my-4 mx-auto mb-16 font-Golo w-full">
+            Contact Us
+          </button>
+        </div>
+      </section>
+      <footer
+        class="bg-dark-blue-nav text-white font-Golo flex flex-col justify-center items-center">
+        <div class="">
+          <img src="./images/logo-bookmark.svg" alt="logo" />
 
-  Organize your bookmarks however you like. Our simple drag-and-drop interface 
-  gives you complete control over how you manage your favourite sites.
-
-  More Info
-
-  Intelligent search
-
-  Our powerful search feature will help you find saved sites in no time at all. 
-  No need to trawl through all of your bookmarks.
-
-  More Info
-
-  Share your bookmarks
-
-  Easily share your bookmarks and collections with others. Create a shareable 
-  link that you can send at the click of a button.
-
-  More Info
-
-  Download the extension
-
-  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
-  got a favourite you’d like us to prioritize.
-
-  Add to Chrome
-  Minimum version 62
-  Add & Install Extension
-
-  Add to Firefox
-  Minimum version 55
-  Add & Install Extension
-
-  Add to Opera
-  Minimum version 46
-  Add & Install Extension
-
-  Frequently Asked Questions
-  
-  Here are some of our FAQs. If you have any other questions you’d like 
-  answered please feel free to email us.
-
-  <!-- Question 1 -->
-  What is Bookmark?
-
-  <!-- Answer 1 -->
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
-  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
-
-  <!-- Question 2 -->
-  How can I request a new browser?
-
-  <!-- Answer 2 -->
-  Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
-  Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
-  ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
-  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
-
-  <!-- Question 3 -->
-  Is there a mobile app?
-
-  <!-- Answer 3 -->
-  Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
-  urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
-  sollicitudin ex et ultricies bibendum.
-
-  <!-- Question 4 -->
-  What about other Chromium browsers?
-
-  <!-- Answer 4 -->
-  Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
-  vitae neque eget nisl gravida pellentesque non ut velit.
-
-  More Info
-
-  35,000+ already joined
-
-  Stay up-to-date with what we’re doing
-
-  Contact Us
-
-  Features
-  Pricing
-  Contact
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+          <ul class="py-6 text-center">
+            <li class="py-2">Features</li>
+            <li class="py-2">Pricing</li>
+            <li class="py-2">Contact</li>
+          </ul>
+        </div>
+        <div class="flex gap-6 justify-center w-full mb-4">
+          <img src="./images/icon-facebook.svg" alt="icon-facebook" />
+          <img src="./images/icon-twitter.svg" alt="icon-twitter" />
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
